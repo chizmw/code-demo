@@ -23,5 +23,6 @@ __PACKAGE__->config(
 
 # Start the application
 __PACKAGE__->setup();
+__PACKAGE__->log->levels( 'warn', 'error', 'fatal' );
 
 1;

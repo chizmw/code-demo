@@ -8,7 +8,7 @@ __PACKAGE__->config(namespace => '');
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
-    die 'Shot through the heart!';
+    $c->log->debug('In your code debugging your lolz');
     $c->response->body( $c->welcome_message );
 }
 

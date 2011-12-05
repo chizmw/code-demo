@@ -8,6 +8,7 @@ use Catalyst qw/
     ConfigLoader
     Static::Simple
     StackTrace
+    ErrorCatcher
 /;
 
 extends 'Catalyst';
